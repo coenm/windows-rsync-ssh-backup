@@ -1,0 +1,4 @@
+# Optional, Filename by name convention: backup_<name of backup>_exclude.txt
+#
+# This file gives you the option to in- or exclude some files and or directories accoring to the Rsync syntax: http://ss64.com/bash/rsync.html#exclude
+# You can check some examples in the 'examples' directory.

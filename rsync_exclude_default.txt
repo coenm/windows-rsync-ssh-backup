@@ -1,0 +1,21 @@
+# Optional, excludes for all the backups
+# More info at
+# http://ss64.com/bash/rsync.html#exclude
+#
+
+# Opened files
+~$*
+
+# Windows stuff
+Thumbs.db
+thumbs.db
+#desktop.ini
+
+# Mac OS stuff
+.DS_Store
+
+#S VN
+.svn/
+
+# backup files
+#*.bak

@@ -1,0 +1,73 @@
+# Syntax can be found at : http://ss64.com/bash/rsync.html#exclude
+#
+# ----------------------------------------------------------
+# DESKTOP
+# ----------------------------------------------------------
++ /Desktop/
++ /Desktop/*
++ /Desktop/**/*
+
+# ----------------------------------------------------------
+# Documents
+# ----------------------------------------------------------
+- /Documents/My Data Sources
+- /Documents/My Music
+- /Documents/My Pictures
+- /Documents/My Videos
+- /Documents/Updater5
++ /Documents/
++ /Documents/*
++ /Documents/**/*
+
+# ----------------------------------------------------------
+# Downloads
+# ----------------------------------------------------------
++ /Downloads/
++ /Downloads/*
++ /Downloads/**/*
+
+# ----------------------------------------------------------
+# Music
+# ----------------------------------------------------------
++ /Music/
++ /Music/*
++ /Music/**/*
+
+# ----------------------------------------------------------
+# Pictures
+# ----------------------------------------------------------
++ /Pictures/
++ /Pictures/*
++ /Pictures/**/*
+
+# ----------------------------------------------------------
+# Videos
+# ----------------------------------------------------------
++ /Videos/
++ /Videos/*
++ /Videos/**/*
+
+# ----------------------------------------------------------
+# Some data of Google Picasa 
+# ----------------------------------------------------------
+- /AppData/Local/Google/Picasa2/cache
+- /AppData/Local/Google/Picasa2/synclog
+- /AppData/Local/Google/Picasa2/tmp
+- /AppData/Local/Google/Picasa2/temp
+- /AppData/Local/Google/Picasa2/update
++ /AppData/
++ /AppData/Local/
++ /AppData/Local/Google/
++ /AppData/Local/Google/Picasa2/
++ /AppData/Local/Google/Picasa2/*
++ /AppData/Local/Google/Picasa2/**/*
+
+- /AppData/Local/Google/Picasa2Albums/backup
++ /AppData/Local/Google/Picasa2Albums/
++ /AppData/Local/Google/Picasa2Albums/*
++ /AppData/Local/Google/Picasa2Albums/**/*
+
+# ----------------------------------------------------------
+# DEFAULT: Skip the rest
+# ----------------------------------------------------------
+- *
